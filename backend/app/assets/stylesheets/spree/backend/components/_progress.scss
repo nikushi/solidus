@@ -36,7 +36,9 @@
   height: 30px;
   border: 6px solid rgba($color-spinner, 0.2);
   border-left-color: rgba($color-spinner, 1);
-  @include animation(spinner 1s infinite linear);
+  -webkit-animation: spinner 1s infinite linear;
+  -o-animation: spinner 1s infinite linear;
+  animation: spinner 1s infinite linear;
   border-radius: 50%;
 }
 
